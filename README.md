@@ -17,3 +17,7 @@ Yeni model sürümü yeni bir commit olarak eklenir, eklenti o commit'e sabitlen
 On-device name/organization/address model used by the Perde AI browser extension.
 Derived from emi08/maske (Apache-2.0), exported to ONNX and quantized to int8.
 The ONNX file is split in two parts (GitHub's 100 MB file limit); concatenate in order.
+
+## Gizlilik / Privacy
+
+Perde AI gizlilik politikası: [PRIVACY.md](PRIVACY.md)
