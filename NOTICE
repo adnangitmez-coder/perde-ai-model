@@ -1,0 +1,6 @@
+This repository contains a derivative of the model "emi08/maske"
+(https://huggingface.co/emi08/maske), licensed under the Apache License 2.0.
+
+Modifications: exported to ONNX (opset 17) and dynamically quantized to int8
+(onnxruntime.quantization.quantize_dynamic) for in-browser use by Perde AI.
+The ONNX file is split into two byte-exact parts.
