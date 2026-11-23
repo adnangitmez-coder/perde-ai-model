@@ -6,6 +6,7 @@ kontrol eder ve tarayıcının içinde saklar. Bu depoya hiçbir kullanıcı met
 buradan yalnız model dosyaları indirilir.
 
 - Kaynak model: [emi08/maske](https://huggingface.co/emi08/maske) (ModernBERT-tr tabanlı, Apache-2.0)
+- Sürüm 2 (2026-11-23): Türkçe sohbet tarzı yapay (uydurma) mesajlarla ek eğitim yapıldı; gerçek kişi verisi kullanılmadı
 - Biçim: ONNX, int8 (`onnx/model_quantized.onnx`, GitHub'ın 100 MB dosya sınırı yüzünden iki parça; eklenti sırayla birleştirir)
 - Lisans: Apache-2.0 (bkz. LICENSE ve NOTICE)
 
@@ -15,7 +16,7 @@ Yeni model sürümü yeni bir commit olarak eklenir, eklenti o commit'e sabitlen
 ---
 
 On-device name/organization/address model used by the Perde AI browser extension.
-Derived from emi08/maske (Apache-2.0), exported to ONNX and quantized to int8.
+Derived from emi08/maske (Apache-2.0), fine-tuned on synthetic chat-style Turkish messages (v2), exported to ONNX and quantized to int8.
 The ONNX file is split in two parts (GitHub's 100 MB file limit); concatenate in order.
 
 ## Gizlilik / Privacy
